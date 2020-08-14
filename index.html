@@ -4,41 +4,452 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Youtube UI Clone</title>
 </head>
 
 <body>
-    <div>
-        <p>Hello World</p>
+    <div class="menuBar">
+        <div class="logo">
+            <i class="material-icons">menu</i>
+            <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube-logo-full_color_light.svg?cache=72a5d9c"
+                alt="">
+        </div>
+        <div class="search">
+            <form action="">
+                <input type="text">
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+        <div class="icons">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
     </div>
-    <div>
-        <p>Goodbye World</p>
-    </div>
-    <div>
-        <p>Hello World</p>
-    </div>
-    <div>
-        <p>Goodbye World</p>
-    </div>
-    <div>
-        <p>Hello World</p>
-    </div>
-    <div>
-        <p>Goodbye World</p>
-    </div>
-    <div>
-        <p>Hello World</p>
-    </div>
-    <div>
-        <p>Goodbye World</p>
-    </div>
-    <div>
-        <p>Hello World</p>
-    </div>
-    <div>
-        <p>Goodbye World</p>
-    </div>
+    <div class="mainBody">
+        <div class="categories">
+            <div class="categoriesSection">
+                <span class="category active-span">
+                    <i class="material-icons active">home</i>
+                    <span>Home</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">local_fire_department</i>
+                    <span>Trending</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">subscriptions</i>
+                    <span>Subcriptions</span>
+                </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <span class="category">
+                    <i class="material-icons">library_add_check</i>
+                    <span>Library</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Your videos</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">watch_later</i>
+                    <span>Watch Later</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">thumb_up</i>
+                    <span>Liked videos</span>
+                </span>
+            </div>
+            <hr>
+            <div class="categoriesSection">
+                <h4>SUBSCRIPTIONS</h4>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Traversy Media</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Zaio</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Academind</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Academind</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Academind</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Academind</span>
+                </span>
+                <span class="category">
+                    <i class="material-icons">account_circle</i>
+                    <span>Academind</span>
+                </span>
+            </div>
 
+
+        </div>
+        <div class="videos">
+            <h1>Recommended</h1>
+            <div class="videosGrid">
+
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1550424616-3d37bc3e9a2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                            alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                                alt="">
+                        </div>
+                        <div class="title">
+                            <h3>How to become a beast Zaio dev?</h3>
+                            <a href="">Zaio</a>
+                            <span>1000 views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
